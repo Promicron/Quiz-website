@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Prom Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">  
+        <nav>
+            <a href="Home.html"><img src="Images/Floral.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <div><img onclick="hideMenu()" class="icon" src="Images/cancel.png" alt=""></div>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Quizzes.html">QUIZZES</a></li>
+                    <li><a href="Search.html">SEARCH</a></li>
+                    <li><a href="About us.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div><img onclick="showMenu()" class="icon" src="Images/menu2.png" alt=""></div>
+        </nav>
+      
+        <div class="text-box">
+            <h1>Welcome to Prom Quiz</h1>
+            <p>Test yourself on various topics ranging from science
+                 to sports and a lot more !!. Take quizzes and <br> climb
+                  up the global leaderboard. Dive into a world of fun
+                   and learning <br> with the link below.       
+            </p> <br> <br>
+            <a href="QPage\football.html" class="hero-btn"> <h3>Take a Quiz</h3></a> 
+        </div>
+    </section>
+
+
+    <section class="course">
+        <h1>Top choice Quizzes</h1>
+
+        <div class="row">
+            <div class="quiz-col">
+               <h3>Accounting</h3>
+               <p>Try out questions on Balance Sheet Reconciliations, Bank Wires, Chart of Accounts etc.</p> 
+               <a href="Accounting.html"><img src="Images/Acct Logo.jpg" alt="Accounting" width="400"></a>
+            </div>
+            <div class="quiz-col">
+                <h3>The vampire Diaries</h3>
+                <p>Take this quiz if you think know enough about the salvators, vampires, hybrids and witches.</p>
+                <a href="TVD.html"><img src="Images/TVD2 Logo.jpg" alt="The vampire Diaries" width="400" height="210"></a>
+            </div>
+            <div class="quiz-col">
+                <h3>Law</h3>
+                <p>Test yourself on Family Law, Criminal Law, Consumer Law and all Legal topics.</p>
+                <a href="Law.html"><img src="Images/Law Logo.jpeg" alt="" width="400" height="210"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="quiz-col">
+               <h3>Naruto</h3>
+               <p>The Hokages, Akatsuki, Team 7, Orochimaru etc awaits you. Try this quiz and test yourself.</p> 
+               <a href="Naruto.html"><img src="Images/Naruto Logo.jpg" alt="Naruto" width="400" height="210"></a>
+            </div>
+            <div class="quiz-col">
+                <h3>Computer Science</h3>
+                <p>Computer science is an ocean and would drown those who don't learn to swim.</p>
+                <a href="CMP.html"><img src="Images/CMP Logo.jpg" alt="Computer Science" width="400" height="210"></a>
+            </div>
+            <div class="quiz-col">
+                <h3>Chemistry</h3>
+                <p>Try out questions on thermodynamics, IUPAC configurations, Organic Chemistry. </p>
+                <a href="Chemistry.html"><img src="Images/Chemistry Logo.jpg" alt="" width="400" height="210">
+                </a>
+                
+            </div>
+        </div>
+        <br> <br>
+    </section>
+    <section class="footer">
+        <h4>CONTACT US</h4>
+        <p>We are available on the platforms below.</p>
+        <div class="icons">
+            <a href=""><img src="Images/Twitter.png" alt=""></a>
+            <a href=""><img src="Images/Insta.png" alt=""></a>
+            <a href=""><img src="Images/Whatsapp.png" alt=""></a>
+            
+        </div>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"; 
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>

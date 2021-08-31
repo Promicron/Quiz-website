@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">  
+        <nav>
+            <a href="Home.html"><img src="Images/Floral.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img onclick="hideMenu()" class="icon" src="Images/cancel.png" alt="">
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Quizzes.html">QUIZZES</a></li>
+                    <li><a href="Search.html">SEARCH</a></li>
+                    <li><a href="About us.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <img onclick="showMenu()" class="icon" src="Images/Menu Icon.png" alt="">
+
+        </nav>
+      
+        <div class="text-box">
+            <h2><p>Our Objective:</p></h2>
+            <p><h1>To provide users the satisfaction of Recreation and Learning.</h1></p>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>CONTACT US</h4>
+        <p>We are available on the platforms below.</p>
+        <div class="icons">
+            <a href=""><img src="Images/Twitter.png" alt=""></a>
+            <a href=""><img src="Images/Insta.png" alt=""></a>
+            <a href=""><img src="Images/Whatsapp.png" alt=""></a>
+            
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    
+
+</body>
+</html>

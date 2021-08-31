@@ -1,0 +1,341 @@
+*{  
+    margin: 0;
+    padding: auto;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/Waves2.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;   
+}
+nav img{
+    width: 120px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-style: normal  ;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition:0.4s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 65px;
+}
+.text-box p{
+    font-size: 10px 0 40px;
+    font-size: 25px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid red;
+    background: #f44336;
+    transition: 1s;
+}
+.label {
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 40px;
+    margin: 30px;
+
+  }
+  
+nav .icon{
+    display: none;
+}
+
+@media(max-width: 479px){
+    nav img{
+        width: 80px;
+    }
+    .text-box h1{
+        font-size: 25px;
+    }
+    .text-box p{
+        font-size: 10px 0 40px;
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .icon{
+        display: block;
+        margin: 5px;
+        font-size: 22px;
+        cursor: pointer;
+        height: 20px;
+        width: auto;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+@media(min-width: 500px) and (max-width:950px){
+    nav img{
+        width: 120px;
+    }
+    .text-box h1{
+        font-size: 65px;
+    }
+    .text-box p{
+        font-size: 10px 0 40px;
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .icon{
+        display: block;
+        margin: 5px;
+        font-size: 22px;
+        cursor: pointer;
+        height: 20px;
+        width: auto;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+
+ /*--- Top Quizzes ------*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+
+}
+
+@media(max-width: 479px){
+    .row{
+        flex-direction: column;
+    }
+}
+.quiz-col img{
+    flex-basis: 32%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+@media(max-width: 479px){
+    .quiz-col img{
+        flex-direction: column;
+        width: 100%;
+        height: 150;
+    }
+}
+/*----footer----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600 ;
+}
+.icons img{
+    width: 20px;
+    padding: 5px;
+}
+.text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Quizzes*/
+.quiz h1{
+    font-size: 50px;
+    color: #777;
+    padding-bottom: 20px;
+}
+.quiz{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    display: block;
+   
+    padding: 8px;
+}
+.quiz ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.quiz ul{
+    list-style-type: circle;
+    display: inline-block;
+
+} 
+
+/* .quiz ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition:0.4s;
+}
+.quiz ul li a:hover::after{
+    width: 50%;
+} */
+
+
+  /* Style the sidenav links and the dropdown button */
+  .drop a, .dropdown-btn {
+     padding: 6px;
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .drop a:hover, .dropdown-btn:hover {
+    color: #e40f0f;
+    transition: 0.5s;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+  .dropdown-container a{
+      text-align: justify;
+      font-size: 25px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Search Page */
+  input[type=text]{
+    width: 50vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=button]{
+      width: 30%;
+      border-radius: 4px;
+      height: 30px;
+      color: white;
+      background-color: rgb(144, 144, 216);
+      border: none;
+  }
+  
