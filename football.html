@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +14,16 @@
         <!-- <a href="Home.html"><img src="Floral.png" alt=""></a> -->
     </div>
     <nav>
-    
         <div class="nav-links" id="navLinks">
-            <div><img onclick="hideMenu()" class="icon" src="images/menu2.png" alt=""></div>
+            <div><img onclick="hideMenu()" class="icon" src="Images/cancel.png" alt=""></div>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="Quizzes.html">QUIZZES</a></li>
                 <li><a href="Search.html">SEARCH</a></li>
                 <li><a href="About us.html">ABOUT US</a></li>
             </ul>
-            <div>
         </div>
-        <img onclick="showMenu()" class="icon" src="Menu Icon.png" alt=""></div>
+        <div><img onclick="showMenu()" class="icon" src="Images/menu2.png" alt=""></div>
     </nav>
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
@@ -54,7 +52,7 @@
                 <div class="time_left_txt">Time Left</div>
                 <div class="timer_sec">15</div>
             </div>
-            <div class="time_line"></div>
+            <!-- <div class="time_line"></div> -->
         </header>
         <section>
             <div class="que_text">
@@ -96,12 +94,12 @@
         <script>
             var navLinks = document.getElementById("navLinks");
             function showMenu(){
-                navLinks.style.right = "0"; 
+                navLinks.style.left = "0"; 
             }
             function hideMenu(){
-                navLinks.style.right = "-200px"
+                navLinks.style.left = "-200px"
             }
-        </script>
+        </script>    
 </body>
 </html>
 </html>

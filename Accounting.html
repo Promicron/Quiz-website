@@ -10,11 +10,9 @@
 </head>
 <body>
     <div class="topnav">
-        <h3 style="background: black; border-bottom: 1px solid red; z-index: 10; height:60px; display: none;">Lets Gooooooo</h3>
         <!-- <a href="Home.html"><img src="Floral.png" alt=""></a> -->
-    </div> <br> <br>
+    </div>
     <nav>
-    
         <div class="nav-links" id="navLinks">
             <div><img onclick="hideMenu()" class="icon" src="Images/cancel.png" alt=""></div>
             <ul>
@@ -23,9 +21,8 @@
                 <li><a href="Search.html">SEARCH</a></li>
                 <li><a href="About us.html">ABOUT US</a></li>
             </ul>
-            <div>
         </div>
-        <img onclick="showMenu()" class="icon" src="Images/menu2.png" alt=""></div>
+        <div><img onclick="showMenu()" class="icon" src="Images/menu2.png" alt=""></div>
     </nav>
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
@@ -49,12 +46,12 @@
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Football Quiz</div>
+            <div class="title">Accounting Quiz</div>
             <div class="timer">
                 <div class="time_left_txt">Time Left</div>
                 <div class="timer_sec">15</div>
             </div>
-            <div class="time_line"></div>
+            <!-- <div class="time_line"></div> -->
         </header>
         <section>
             <div class="que_text">
@@ -96,10 +93,10 @@
         <script>
             var navLinks = document.getElementById("navLinks");
             function showMenu(){
-                navLinks.style.right = "0"; 
+                navLinks.style.left = "0"; 
             }
             function hideMenu(){
-                navLinks.style.right = "-200px"
+                navLinks.style.left = "-200px"
             }
         </script>
 </body>

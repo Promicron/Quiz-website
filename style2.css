@@ -9,7 +9,9 @@
 body{
     background-color: #485461;
     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    width: 100%;
 }
+
 .topnav{
     background: black;
     height: 60px;
@@ -68,9 +70,9 @@ nav .icon{
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -202px;
+        left: -200px;
         text-align: left;
-        z-index: 4;
+        z-index: 2;
         transition: 1s;
     }
     nav .icon{
@@ -87,6 +89,7 @@ nav .icon{
     .topnav{
         display: block;
     }
+
 }
 
 
@@ -114,6 +117,7 @@ nav .icon{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
+    margin-top: 40px;
 }
 
 .start_btn button{
@@ -192,6 +196,7 @@ nav .icon{
     }
     .quiz_box.quiz_box.activeQuiz{
         width: 340px;
+        margin-top: 50px;
     }
     .quiz_box header{
         height: 40px;
@@ -284,6 +289,7 @@ nav .icon{
     }
     .quiz_box header .time_line{
         width: 340px;
+        display: none;
     }
 }
 
@@ -502,5 +508,11 @@ footer button.show{
         font-size: 16px;
         font-weight: 500;
     }
+    section .que_text{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 40px;
+    }
+    
 
 }
