@@ -1,6 +1,7 @@
 *{  
     margin: 0;
     padding: auto;
+    font-family: 'Nunito';
 }
 .header {
     min-height: 100vh;

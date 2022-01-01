@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: "The process of recording consumption of natural resources (or wasting assets) is called?",
-    answer: "Amortization",
+    question: "What percent of a circle is 75°?",
+    answer: "20.83",
     options: [
-      "Amortization",
-      "Depletion",
-      "Residual Value",
-      "Going Concern"
+      "15%",
+      "75%",
+      "20.83%",
+      "25"
     ]
   },
     {
     numb: 2,
-    question: "The correct form of Accounting equation is?",
-    answer: "Assets - Liabilities = Equity",
+    question: "What value of x makes 4x - 2 = 2(x + 1) a true statement??",
+    answer: "2",
     options: [
-      "Assets + Liabilities = Equity",
-      "Assets - Liabilities = Equity",
-      "Assets - Receivable = Equity",
-      "Assets + Receivable = Equity"
+      "-2",
+      "1",
+      "0",
+      "2"
     ]
   },
     {
     numb: 3,
-    question: "What from the following is NOT a non-current asset?",
-    answer: "Inventory",
+    question: "How is 315000 expressed in scientific notation ?",
+    answer: "3.15 x 10^5",
     options: [
-      "Capital",
-      "Property",
-      "Patent rights",
-      "Inventory"
+      "3.15 x 10^5",
+      "31.5x10^5",
+      "315x10^3",
+      "3.15x10^-3"
     ]
   },
     {
     numb: 4,
-    question: "The goods that have been sold to the customers are treated as _____ in the financial statements?",
-    answer: "Expenses",
+    question: "20 % of 2 is equal to?",
+    answer: "0.4",
     options: [
-      "Inventories",
-      "Expenses",
-      "Income",
-      "Debt"
+      "1",
+      "4",
+      "1.4",
+      "0.4"
     ]
   },
     {
     numb: 5,
-    question: "The selling price of some goods is $1500 and cost to sell the goods is $200. What is the Net Realizable Value (NRV)?",
-    answer: "$1000",
+    question: "The value of Log 10 is",
+    answer: "1",
     options: [
-      "$1000",
-      "$1200",
-      "$1300",
-      "$1500"
+      "0.5",
+      "1",
+      "2",
+      "0.010"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question

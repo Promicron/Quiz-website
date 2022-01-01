@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: "The process of recording consumption of natural resources (or wasting assets) is called?",
-    answer: "Amortization",
+    question: "Find the missing term in : 2, 4, 8, __, 32",
+    answer: "16",
     options: [
-      "Amortization",
-      "Depletion",
-      "Residual Value",
-      "Going Concern"
+      "12",
+      "16",
+      "10",
+      "22"
     ]
   },
     {
     numb: 2,
-    question: "The correct form of Accounting equation is?",
-    answer: "Assets - Liabilities = Equity",
+    question: "A Triangle with one angle > 90° is called",
+    answer: "Obtuse Triangle",
     options: [
-      "Assets + Liabilities = Equity",
-      "Assets - Liabilities = Equity",
-      "Assets - Receivable = Equity",
-      "Assets + Receivable = Equity"
+      "Acute Triangle",
+      "Scalene Triangle",
+      "Obtuse Triangle",
+      "Isoceles Triangle"
     ]
   },
     {
     numb: 3,
-    question: "What from the following is NOT a non-current asset?",
-    answer: "Inventory",
+    question: "Which of the following is an Integer?",
+    answer: "-10",
     options: [
-      "Capital",
-      "Property",
-      "Patent rights",
-      "Inventory"
+      "3/2",
+      "4.9",
+      "-10",
+      "3√2"
     ]
   },
     {
     numb: 4,
-    question: "The goods that have been sold to the customers are treated as _____ in the financial statements?",
-    answer: "Expenses",
+    question: "Which of the following is lower?",
+    answer: "-28",
     options: [
-      "Inventories",
-      "Expenses",
-      "Income",
-      "Debt"
+      "12",
+      "-13",
+      "0",
+      "-28"
     ]
   },
     {
     numb: 5,
-    question: "The selling price of some goods is $1500 and cost to sell the goods is $200. What is the Net Realizable Value (NRV)?",
-    answer: "$1000",
+    question: "What number is XCI?",
+    answer: "91",
     options: [
-      "$1000",
-      "$1200",
-      "$1300",
-      "$1500"
+      "101",
+      "91",
+      "110",
+      "1001"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question

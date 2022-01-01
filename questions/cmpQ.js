@@ -1,57 +1,57 @@
 let questions = [
     {
     numb: 1,
-    question: "The most abundant element in the universe is?",
-    answer: "Hydrogen",
+    question: "A part of the computer that reads information from a disk is called ?",
+    answer: "Disk Drive",
     options: [
-      "Hydrogen",
-      "Oxygen",
-      "Carbon-dioxide",
-      "Silicon"
+      "Hard Drive",
+      "MotherBoard",
+      "Disk Drive",
+      "Operating System"
     ]
   },
     {
     numb: 2,
-    question: "Isotopes are atoms of the same element with different numbers of ?",
-    answer: "Neutrons",
+    question: "Vacuum tubes was used in what generation?",
+    answer: "First",
     options: [
-      "Protons",
-      "Electrons",
-      "Neutrons",
-      "Positron"
+      "First",
+      "Second",
+      "Fourth",
+      "Third"
     ]
   },
     {
     numb: 3,
-    question: "Poly Hydroxyl compounds of Aldehyde and ketones are called ?",
-    answer: "Starch",
+    question: "Every number system has a base, which is called?",
+    answer: "Radix",
     options: [
-      "Alkanes",
-      "Starch",
-      "Salts",
-      "Sugars"
+      "Index",
+      "Subscript",
+      "Radix",
+      "Power"
     ]
   },
     {
     numb: 4,
-    question: "Ink spreads in water because of?",
-    answer: "Diffusion",
+    question: "192.168.10.3 is an example of ?",
+    answer: "IP Adrress",
     options: [
-      "Vapor pressure",
-      "Diffusion",
-      "Dipole movement",
-      "Osmosis"
+      "Subnet Mask",
+      "Gateway",
+      "IP Adrress",
+      "IMEI"
     ]
   },
     {
     numb: 5,
-    question: "Which of the following is an organic compound ?",
-    answer: "C<sub>2</sub>H2",
+    question: "What is the extension of an Excel spreadsheet file?",
+    answer: ".xlsx",
     options: [
-      "CO",
-      "C<sub>2</sub>H2",
-      "CO2",
-      "NaHCO3"
+      ".docx",
+      ".xls",
+      ".xml",
+      ".exl"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question

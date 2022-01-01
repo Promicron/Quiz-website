@@ -4,12 +4,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    padding: auto;
 }
 
 body{
     background-color: #485461;
     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
     width: 100%;
+    overflow: hidden;
 }
 
 .topnav{
@@ -17,6 +19,7 @@ body{
     height: 60px;
     border-bottom: 2px solid rgb(160, 9, 9);
     display: none;
+    overflow: hidden;
 }
 nav{
     display: flex;
@@ -59,7 +62,7 @@ nav .icon{
 }
 @media (max-width: 479px){
     nav img{
-        width: 80px;
+        width: 75px;
     }
     .nav-links ul li{
         display: block;
@@ -89,9 +92,14 @@ nav .icon{
     .topnav{
         display: block;
     }
+    .quiz_box{
+        overflow: hidden;
+    }
+    .info_box{
+        overflow: hidden;
+    }
 
 }
-
 
 ::selection{
     color: #fff;
@@ -139,7 +147,7 @@ nav .icon{
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .info_box .info-title{
@@ -513,6 +521,5 @@ footer button.show{
         font-weight: 600;
         padding-top: 40px;
     }
-    
 
 }

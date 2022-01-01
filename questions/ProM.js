@@ -1,35 +1,35 @@
 let questions = [
     {
     numb: 1,
-    question: "The process of recording consumption of natural resources (or wasting assets) is called?",
-    answer: "Amortization",
+    question: "If f(x) is an odd function, then | f(x) | is?",
+    answer: "an even function",
     options: [
-      "Amortization",
-      "Depletion",
-      "Residual Value",
-      "Going Concern"
+      "an odd function",
+      "an even function",
+      "neither odd nor even",
+      "even and odd "
     ]
   },
     {
     numb: 2,
-    question: "The correct form of Accounting equation is?",
-    answer: "Assets - Liabilities = Equity",
+    question: "How many integers are there between 100 and 1000 all of whose digits are odd?",
+    answer: "125",
     options: [
-      "Assets + Liabilities = Equity",
-      "Assets - Liabilities = Equity",
-      "Assets - Receivable = Equity",
-      "Assets + Receivable = Equity"
+      "100",
+      "150",
+      "125",
+      "250"
     ]
   },
     {
     numb: 3,
-    question: "What from the following is NOT a non-current asset?",
-    answer: "Inventory",
+    question: "The logarithm of 1000 with base 10 is ?",
+    answer: "3",
     options: [
-      "Capital",
-      "Property",
-      "Patent rights",
-      "Inventory"
+      "2",
+      "3",
+      "4",
+      "1"
     ]
   },
     {
